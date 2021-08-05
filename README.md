@@ -8,7 +8,7 @@ Code can be run using Visual Studio Code or Jupyter Notebook
 
 This data analysis compared the drinking rates to a country's happiness score to determine if alcohol and happiness are related.
 
-![landingPage](gifs/landingPage.gif)
+![landingPage](gifs/landing.gif)
 
 ![exploring](gifs/exploring.gif)
 
