@@ -12,7 +12,7 @@ This data analysis compared the drinking rates to a country's happiness score to
 
 ![exploring](assets/ReadME_gifs/exploring.gif)
 
-![maps](assets/ReadME_gifs/maps.gif)
+![maps](gifs/maps.gif)
 
 # Do Happier Countries Drink More or Less Than Sad Countries?
 
