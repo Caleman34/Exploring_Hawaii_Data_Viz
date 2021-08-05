@@ -1,0 +1,82 @@
+[
+ {
+   "id": "1",
+   "volcano_name": "Haleakala",
+   "lat": "20.708",
+   "lon": "-156.25",
+   "elevation_m": "3055",
+   "type": "Shield volcano",
+   "status": "Historical",
+   "last_known_eruption_type": "D4"
+ },
+ {
+   "id": "2",
+   "volcano_name": "Hualalai",
+   "lat": "19.692",
+   "lon": "-155.87",
+   "elevation_m": "2523",
+   "type": "Shield volcano",
+   "status": "Historical",
+   "last_known_eruption_type": "D3"
+ },
+ {
+   "id": "3",
+   "volcano_name": "Kilauea",
+   "lat": "19.421",
+   "lon": "-155.287",
+   "elevation_m": "1222",
+   "type": "Shield volcano",
+   "status": "Historical",
+   "last_known_eruption_type": "D1"
+ },
+ {
+   "id": "4",
+   "volcano_name": "Loihi",
+   "lat": "18.92",
+   "lon": "-155.27",
+   "elevation_m": "-975",
+   "type": "Submarine volcano",
+   "status": "Historical",
+   "last_known_eruption_type": "D1"
+ },
+ {
+   "id": "5",
+   "volcano_name": "Mauna Kea",
+   "lat": "19.82",
+   "lon": "-155.47",
+   "elevation_m": "4205",
+   "type": "Shield volcano",
+   "status": "Radiocarbon",
+   "last_known_eruption_type": "D7"
+ },
+ {
+   "id": "6",
+   "volcano_name": "Mauna Loa",
+   "lat": "19.475",
+   "lon": "-155.608",
+   "elevation_m": "4170",
+   "type": "Shield volcano",
+   "status": "Historical",
+   "last_known_eruption_type": "D1"
+ },
+ {
+   "id": "7",
+   "volcano_name": "Unnamed",
+   "lat": "23.58",
+   "lon": "-163.83",
+   "elevation_m": "-4000",
+   "type": "Submarine volcano",
+   "status": "Historical",
+   "last_known_eruption_type": "D2"
+ },
+ {
+   "id": "8",
+   "volcano_name": "Unnamed",
+   "lat": "21.75",
+   "lon": "-158.75",
+   "elevation_m": "-3000",
+   "type": "Submarine volcano",
+   "status": "Uncertain",
+   "last_known_eruption_type": "Unknown"
+ }
+]

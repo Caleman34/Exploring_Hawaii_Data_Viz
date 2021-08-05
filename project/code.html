@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Code Snips</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+
+  <!-- Material Kit CSS -->
+  <link href="../assets/css/material-kit.css?v=2.0.7" rel="stylesheet" />
+
+  <!-- jquery link -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+
+  <!-- scrollReveal js link -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- aniJS css link -->
+  <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
+
+
+</head>
+
+<body>
+
+  <!-- nav bar -->
+  <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg" color-on-scroll="100"
+    style="color: rgb(18, 211, 236)">
+    <div class="container">
+      <div class="navbar-translate">
+        <a class="navbar-brand" href="../index.html" data-anijs="if: mouseover, do: tada animated">
+          <img src="../assets/img/hawaiiicon.png" alt="Logo" style="width:50px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+          <li class="dropdown nav-item">
+            <a href="" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              <i class="material-icons">explore</i>Hawaiian Islands
+              <b class="caret"></b>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <h6 class="dropdown-header">Main Islands</h6>
+              <a href="../islands/kauai.html" class="dropdown-item">Kauai</a>
+              <a href="../islands/oahu.html" class="dropdown-item">Oahu</a>
+              <a href="../islands/molokai.html" class="dropdown-item">Molokai</a>
+              <a href="../islands/lanai.html" class="dropdown-item">Lanai</a>
+              <a href="../islands/maui.html" class="dropdown-item">Maui</a>
+              <a href="../islands/hawaii.html" class="dropdown-item">Island of Hawaii</a>
+            </div>
+          </li>
+          <li class="dropdown nav-item">
+            <a href="javascript:;" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              <i class="material-icons">map</i>Discover Hawaii
+              <b class="caret"></b>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <h6 class="dropdown-header">Trip Research</h6>
+              <a href="../discover/hotels.html" class="dropdown-item">Planning</a>
+              <a href="../discover/climate.html" class="dropdown-item">Climate</a>
+              <a href="../discover/conditions.html" class="dropdown-item">Beaches</a>
+              <div class="dropdown-divider"></div>
+              <a href="../discover/ufo.html" class="dropdown-item">UFO Sightings</a>
+            </div>
+          </li>
+          <li class="dropdown nav-item">
+            <a href="" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              <i class="material-icons">apps</i> Project info
+              <b class="caret"></b>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <h6 class="dropdown-header">Full Stack Development</h6>
+              <a href="data.html" class="dropdown-item">Data & Resources</a>
+              <a href="code.html" class="dropdown-item">Code & Discussion</a>
+              <div class="dropdown-divider"></div>
+              <a href="about.html" class="dropdown-item">About the Developers</a>
+            </div>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- page header -->
+  <div class="page-header header-filter" data-parallax="true" style="background-image: url('../assets/img/leis.png')">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto">
+          <div class="brand text-center">
+            <h1>Project Development & Discussion</h1>
+            <h3 class="title text-center" id="delay">A Full Stack Presentation</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main support-raised">
+
+    <!-- begining of carousel -->
+    <div class="section" id="carousel">
+      <div class="container">
+        <div class="brand text-center">
+          <h2 class="text-center">Project Development Code Snips</h2>
+        </div>
+        <div class="row ">
+          <div class="col-md-10 mr-auto ml-auto">
+            <!-- Carousel Card -->
+            <div class="card card-raised card-carousel">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="../assets/img/code/climate_sql_code.png" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4>
+                        <!-- <i class="material-icons">location_on</i> -->
+                        Climate SQL Query
+                      </h4>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="../assets/img/code/hotels_sql_code.png" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4>
+                        <!-- <i class="material-icons">location_on</i> -->
+                        Hotel SQL Query
+                      </h4>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="../assets/img/code/ufo_sightings_sql_code.png" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4>
+                        <!-- <i class="material-icons">location_on</i> -->
+                        UFO SQL Query
+                      </h4>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="../assets/img/code/carouselcode.png" alt="Fouth slide">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4>
+                        <!-- <i class="material-icons">location_on</i> -->
+                        Carousel HTML
+                      </h4>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="../assets/img/code/conditionscode.png" alt="Fifth slide">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4>
+                        <!-- <i class="material-icons">location_on</i> -->
+                        Conditions JS
+                      </h4>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="../assets/img/code/hotelscode.png" alt="Sixth slide">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4>
+                        <!-- <i class="material-icons">location_on</i> -->
+                        Hotels Leaflet JS
+                      </h4>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="../assets/img/code/ufo.png" alt="Seventh slide">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4>
+                        <!-- <i class="material-icons">location_on</i> -->
+                        UFO filter JS
+                      </h4>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="../assets/img/code/flask_code.png" alt="Eighth slide">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4>
+                        <!-- <i class="material-icons">location_on</i> -->
+                        Flask Connections
+                      </h4>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="../assets/img/code/flask_code.2.png" alt="Ninth slide">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4>
+                        <!-- <i class="material-icons">location_on</i> -->
+                        Flask Imports
+                      </h4>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="../assets/img/code/flask_code.3.png" alt="Tenth slide">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4>
+                        <!-- <i class="material-icons">location_on</i> -->
+                        Flask Stations
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <i class="material-icons">keyboard_arrow_left</i>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <i class="material-icons">keyboard_arrow_right</i>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- End Carousel Card -->
+
+    <div class="container">
+      <div class="row col-md-12 ml-auto mr-auto">
+        <div>
+          <p>
+          <h2 align="left">Discussion</h2>
+          <ul align="left">
+            <li>
+              <h3>How did this idea come about? We wanted to do something fun and relaxing, something to look foward to
+                in
+                the future (because I KNOW we all need a Hawaii/Tropical vacation soon)</h3>
+            </li>
+            <li>
+              <h3>We bounced tons of ideas off each other and narrowed it down to more ideal data that would be sought
+                out
+                while planning a trip.</h3>
+            </li>
+          </ul>
+          </p>
+          <p>
+          <h2 align="left">Challenges and Victories</h2>
+          <ul align="left">
+            <li>
+              <h3>Victory- Finding the exact data our project needed</h3>
+            </li>
+            <li>
+              <h3>Challenges in making the Flask/ SQLAlchey and SQLite connection. Multiple errors, our findings are
+                that
+                there is a deep disconnect that requires more time to research. Back up solution is to convert our data
+                into a csv or Json file.</h3>
+            </li>
+            <li>
+              <h3>Victory-creating our SQL database with multiple CVSs.</h3>
+            </li>
+            <li>
+              <h3>Challenges-Even though we have worked with different branches before, the more data we had , the more
+                diffuculty we had pushing, merging.</h3>
+            </li>
+            <li>
+              <h3>Challenge- API connections were not consistent, CORS error was unable to be resolved</h3>
+            </li>
+            <li>
+              <h3>Victory- Leaflet map layers, legend, and overflow contained to designated box and working properly
+              </h3>
+            </li>
+            <li>
+              <h3>Challenge- images did not work across all platforms- needed to change from .jfiff to .png</h3>
+            </li>
+          </ul>
+          </p>
+          <p>
+            <!-- <div class="row"> -->
+            <!-- <div class="col-md-12"> -->
+          <h2 align="left">Final Thoughts</h2>
+          <H3 align="justify">At first glance, you're probably thinking "how is this different from other vacation
+            planning websites?"
+            Our web page is unique. We have incorpated real time APIs, used Leaflet to give you ideal hotel locations
+            and what your surroundings will be like. "This is something I would love to use to find the most isolated
+            hotel on any island to get the most out of a quiet vacation"- Rosanna </H3>
+          </p>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- footer -->
+  <footer class="footer footer-default" data-anijs="if: scroll, on: window, do: swing animated">
+    <div class="container">
+      <nav class="float-left">
+        <ul>
+          <li>
+            <a href="https://github.com/Caleman34/Hawaii_Adventures_Data_Visualization_Project.git" target="_blank"><img
+                src="../assets/img/github.svg" alt="Logo" style="width:40px;"> Adrianna Addicks, Rosanna Castanon,
+              Marissa Gallegos, & Chris Aleman
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="copyright float-right">A UTSA Data Analytics & Data Visualization Full Stack Project &copy; 2021
+      </div>
+    </div>
+  </footer>
+
+  <!--   Core JS Files   -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+  <script src="../assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="../assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+  <script src="../assets/js/plugins/moment.min.js"></script>
+
+  <!-- scrollReveal js -->
+  <script type="text/javascript" src="../assets/js/scrollRevealJS.js"></script>
+
+  <!-- AniJS core library -->
+  <script src="https://anijs.github.io/lib/anijs/anijs-min.js"></script>
+
+  <!-- Include to use $addClass, $toggleClass or $removeClass -->
+  <script src="https://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
+
+  <!-- The scrollreveal helper -->
+  <!-- <script src="https://anijs.github.io/lib/anijs/helpers/scrollreveal/anijs-helper-scrollreveal-min.js"></script> -->
+</body>
+
+</html>

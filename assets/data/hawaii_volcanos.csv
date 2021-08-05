@@ -1,0 +1,9 @@
+id,volcano_name,lat,lon,elevation_m,type,status,last_known_eruption_type
+1,Haleakala,20.708,-156.25,3055,Shield volcano,Historical,D4
+2,Hualalai,19.692,-155.87,2523,Shield volcano,Historical,D3
+3,Kilauea,19.421,-155.287,1222,Shield volcano,Historical,D1
+4,Loihi,18.92,-155.27,-975,Submarine volcano,Historical,D1
+5,Mauna Kea,19.82,-155.47,4205,Shield volcano,Radiocarbon,D7
+6,Mauna Loa,19.475,-155.608,4170,Shield volcano,Historical,D1
+7,Unnamed,23.58,-163.83,-4000,Submarine volcano,Historical,D2
+8,Unnamed,21.75,-158.75,-3000,Submarine volcano,Uncertain,Unknown
