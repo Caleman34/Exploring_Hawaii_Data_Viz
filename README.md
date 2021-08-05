@@ -1,4 +1,4 @@
-# link for live web page https://caleman34.github.io/Hawaii_Adventures_Data_Visualization_Project
+# link for live web page https://caleman34.github.io/Project_2/
 
 ## Repository Info:
 
